@@ -68,6 +68,13 @@
       "options": {
         "preset": "conventional"
       }
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/demo/**/*.css"]
+      }
     }
   },
   "tags": []
