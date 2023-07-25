@@ -62,6 +62,12 @@
       "options": {
         "lintFilePatterns": ["apps/demo/**/*.{ts,tsx,js,jsx}"]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   },
   "tags": []
